@@ -9,9 +9,9 @@
 **Current ocupation:** English teacher  
 **General information:**  
 A 27-years old front-end student. Currently taking a *js/front-end development* course at Rolling Scopes school. My goals are to become a confident task-solver and a successful team-worker in my future job. I have no commercial experience but desperately want to learn everything new.
-## Skills  
-- HTML
-- CSS
+## Skill
+HTML  
+CSS  
 ## Education  
 Kharkiv Humanitarian-Pedagogical Academy  
 *Professional qualification: Master of education. English language teacher*  
