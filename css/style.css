@@ -1,0 +1,200 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: cabin;
+    font-size: 20px;
+    margin: auto;
+    width: 1280px;
+    padding-top: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-container {
+    display: flex;
+}
+
+h1 {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-size: 80px;
+    letter-spacing: 5px;
+}
+
+span {
+    color: #1a839e;
+}
+
+h2 {
+    padding-top: 30px;
+    padding-left: 40px;
+    margin: 0;
+    letter-spacing: 3px;
+
+}
+
+h4 {
+    width: fit-content;
+    background-color: rgb(26,131,158,0.5);
+    letter-spacing: 2px;
+}
+
+.profile-name {
+    padding-left: 0;
+}
+
+.my-photo {
+    width: 560px;
+    height: 560px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    line-height: 40px;
+}
+
+.header-menu {
+    display: flex;
+    margin-top: 0;
+    padding-left: 0;
+    background-color: #09738f;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.header-menu-item {
+    font-size: 30px;
+    list-style-type: none;
+    padding-top: 10px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header-menu-link {
+    color: white;
+}
+
+.header-menu-item:hover {
+    background-color: #00657f;
+    border-radius: 15px;
+}
+
+.paragpaph-text {
+    padding-left: 40px;
+    font-size: 25px;
+    background-color: aliceblue;
+}
+
+.code-ex {
+    margin-bottom: 20px;
+    margin-left: 60px;
+    width: fit-content;
+    background-color: antiquewhite;
+}
+
+.md-cv-project {
+    display: flex;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 60px;
+    font-size: 25px;
+    color: black;
+    border: 2px solid aliceblue;
+    border-style: dashed;
+}
+
+.main-container-project {
+    margin-bottom: 20px;
+    background-color: rgb(26,131,158,0.5);
+    border-radius: 10px;
+    height: 220px;
+}
+
+.education-inf {
+    margin-top: 20px;
+    padding-left: 60px;
+    border: 2px solid aliceblue;
+}
+
+.education-year {
+    padding-left: 80px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.lang {
+    padding-left: 60px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.skills-list,
+.contact-list {
+    padding-left: 80px;
+    margin-top: 0;
+}
+
+.skills-item,
+.contact-item {
+    list-style: square;
+    text-transform: uppercase;
+}
+
+.contact-item-link {
+    color: black;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.main-container,
+.other-main-container {
+    margin-bottom: 20px;
+    background-color: rgb(26,131,158,0.5);
+    border-radius: 10px;
+}
+
+.other-main-container {
+    background-color: rgb(26,131,158,0.8);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #00657f;
+    height: 100px;
+}
+
+.rs-logo {
+    width: 100px;
+    height: 70px;
+    margin-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.gitlink{
+    padding-top: 35px;
+    font-size: 30px;
+    color: white;
+    list-style-type: none;
+}
+
+.year {
+    display: flex;
+    justify-content: end;
+    padding-top: 5px;
+    font-size: 30px;
+    color: white;
+}
